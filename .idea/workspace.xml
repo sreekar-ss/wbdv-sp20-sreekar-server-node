@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="807ceae5-c6e2-4333-910e-6286a689264f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1aLWwDq2dIyAt8IoWGEg5YRMIue" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+  </component>
+  <component name="RunManager" selected="Node.js.server.js">
+    <configuration name="Node Server" type="NodeJSConfigurationType" path-to-node="node" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="server.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="server.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Node.js.server.js" />
+      <item itemvalue="Node.js.Node Server" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="807ceae5-c6e2-4333-910e-6286a689264f" name="Default Changelist" comment="" />
+      <created>1586515590517</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586515590517</updated>
+      <workItem from="1586515592878" duration="8714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586565848817">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="0" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1586516590809" />
+    <state x="0" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586565848817" />
+    <state x="323" y="162" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1586565844013">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="323" y="162" key="#com.intellij.ide.macro.MacrosDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586565844013" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586566024901">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586566024901" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586566024897">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586566024897" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586566024896">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586566024896" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586566024899">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586566024899" />
+    <state x="229" y="63" key="SettingsEditor" timestamp="1586516867398">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="63" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1586516867398" />
+    <state x="229" y="89" key="SettingsEditor/0.23.1440.821@0.23.1440.821" timestamp="1586516756105" />
+    <state x="260" y="265" key="jetbrains.nodejs.interpreters-dialog" timestamp="1586565815312">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="260" y="265" key="jetbrains.nodejs.interpreters-dialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586565815312" />
+  </component>
+</project>
