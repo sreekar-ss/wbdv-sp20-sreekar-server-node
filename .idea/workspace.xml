@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="807ceae5-c6e2-4333-910e-6286a689264f" name="Default Changelist" comment="" />
+    <list default="true" id="807ceae5-c6e2-4333-910e-6286a689264f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controllers/quiz-attempts.controller.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controllers/users.controller.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/questions.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quiz-attempts.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/quizzes.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/daos/users.dao.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions/questions.model.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/questions/questions.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts.model.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quiz-attempts/quiz-attempts.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes.model.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/quizzes/quizzes.schema.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/users.model.server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/users.schema.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/questions.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/questions.controller.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/quizzes.controller.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/quizzes.controller.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/body-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/body-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/questions.service.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/questions.service.server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/services/quizzes.service.server.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/quizzes.service.server.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +42,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1aLWwDq2dIyAt8IoWGEg5YRMIue" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -35,6 +61,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="settings.nodejs" />
   </component>
   <component name="RunManager" selected="Node.js.server.js">
@@ -61,7 +88,7 @@
       <updated>1586515590517</updated>
       <workItem from="1586515592878" duration="10427000" />
       <workItem from="1586661148977" duration="3456000" />
-      <workItem from="1586763176195" duration="237000" />
+      <workItem from="1586763176195" duration="12137000" />
     </task>
     <servers />
   </component>
@@ -78,22 +105,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="323" y="162" key="#com.intellij.ide.macro.MacrosDialog/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586565844013" />
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586725945113">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom" timestamp="1586837424151">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586725945113" />
-    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586725945110">
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586837424151" />
+    <state width="1398" height="245" key="GridCell.Tab.0.bottom/1440.23.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1586816190084" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center" timestamp="1586837424148">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586725945110" />
-    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586725945108">
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586837424148" />
+    <state width="1398" height="245" key="GridCell.Tab.0.center/1440.23.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1586816190078" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left" timestamp="1586837424146">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586725945108" />
-    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586725945111">
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586837424146" />
+    <state width="1398" height="245" key="GridCell.Tab.0.left/1440.23.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1586816190074" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right" timestamp="1586837424149">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586725945111" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.0.1920.1080/0.0.1440.900@0.0.1440.900" timestamp="1586837424149" />
+    <state width="1398" height="245" key="GridCell.Tab.0.right/1440.23.1920.1057/0.0.1440.900@0.0.1440.900" timestamp="1586816190081" />
     <state x="229" y="63" key="SettingsEditor" timestamp="1586516867398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

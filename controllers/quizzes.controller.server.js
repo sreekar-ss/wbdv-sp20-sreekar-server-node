@@ -4,12 +4,19 @@ module.exports = function (app) {
 
 
     app.get('/api/quizzes', (req,res) =>
-        res.send(quizzesService
-            .findAllQuizzes()))
+        quizzesService.findAllQuizzes()
+            .then(allQuizzes => res.send(allQuizzes))
+    )
 
     app.get('/api/quizzes/:quizId', (req, res) =>
-        res.json(quizzesService
-            .findQuizById(req.params['quizId'])))
+        quizzesService.findQuizById(req.params['quizId'])
+            .then(quiz => res.json(quiz))
+    )
+
+    app.get('/api/quizzes/:quizId/questions', (req, res) =>
+        quizzesService.findQuizById(req.params['quizId'])
+            .then(quiz => res.json(quiz.questions))
+    )
 }
 
 
