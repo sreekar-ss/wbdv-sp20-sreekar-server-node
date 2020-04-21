@@ -6,8 +6,16 @@ var bodyParser = require('body-parser')
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
-mongoose.connect('mongodb://localhost:27017/whiteboard-cs5610-sp20', { useNewUrlParser: true, useUnifiedTopology: true })
+var connectionString = 'mongodb://localhost:27017/whiteboard-cs5610-sp20'
 
+if(process.env.MLAB_USERNAME_WEBDEV) {
+    var username = process.env.MLAB_USERNAME_WEBDEV;
+    var password = process.env.MLAB_PASSWORD_WEBDEV;
+    connectionString = 'mongodb://' + username + ':' + password;
+    connectionString += '@ds127878.mlab.com:27878/heroku_mfg60d8t';
+}
+
+mongoose.connect(connectionString, { useNewUrlParser: true, useUnifiedTopology: true })
 
 app.use(function (req, res, next) {
     res.header('Access-Control-Allow-Origin', 'http://localhost:4200');
